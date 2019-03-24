@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="395.0" prefWidth="580.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="controlador.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="ivCircuito" fitHeight="360.0" fitWidth="459.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnCoche" layoutX="494.0" layoutY="37.0" mnemonicParsing="false" onMouseClicked="#cargarCoche" prefHeight="52.0" prefWidth="62.0" />
+   </children>
+</AnchorPane>
